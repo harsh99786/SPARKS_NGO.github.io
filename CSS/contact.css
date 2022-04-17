@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(163, 156, 203);
+}
+.header .rightsection img{
+    float: right;
+  width: 25%;
+}
+  
+  .heading h3{
+    border: 4px solid black;
+      font-size: 30px;
+      position: relative;
+      display: inline-block;
+      font-weight: bold;
+      font-style: italic;
+      background-color: rgb(255, 157, 144);
+      padding: 10px 10px;
+      margin: 15px 15px;
+  }
+  .details .queries{
+    background-color: rgb(245, 213, 209);
+    border: 4px solid black;
+      font-weight: bold;
+      display: inline-block;
+  }
+
+  
+
+  .donation h2
+  {
+    border: 4px solid black;
+      background-color: rgb(255, 157, 144);
+  }
+  .donation h5{
+      font-size: 10px;
+  }
+  .donation address{
+    border: 4px solid black;
+    background-color: rgb(245, 213, 209);
+    font-size: 20px;
+  }
+  .donation address p{
+      font-size: 20px;
+      font-weight: bolder;
+  }

@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(163, 241, 236);
+}
+.heading{
+    border: 3px solid black;
+    background-color: pink;
+    font-weight: bolder;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    position: relative;
+    display: inline-block;
+}
+.myimg
+{
+    /* display: inline; */
+    width: 33%;
+    max-width: 10px;
+    max-height: 10px;
+    height: auto;
+    float: right;
+    position: relative;
+}
+.contact{
+    margin: 40px 40px;
+}
+.contact i{
+    color: rgb(182, 74, 74);
+    font-size: 50px;
+    border: 4px solid black;
+    padding: 0px 19px;
+}
+.contact i:hover{
+    color: rgb(95, 53, 212);
+}
+.questions
+{
+    padding: 10px 10px;
+    margin: 32px 10px;
+    background-color: #ffd9a7;
+    border: 3px solid black;
+}
+.questions h3{
+font-size: 20px;
+}
+.contact{
+    background-color: antiquewhite;
+    border: 3px solid black;
+    padding: 10px 10px;
+    margin: 4px 4px;
+}

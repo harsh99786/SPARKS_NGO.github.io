@@ -1,0 +1,151 @@
+ /* CSS Reset */
+ *{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    background-color: darkslategrey;
+position: absolute;
+left: 10px;
+top: 20px;
+/* border: 2px solid red; */
+display: inline-block;
+/* COLOR: black; */
+font-weight: bold;
+font-size: 20px;
+}
+.left img{
+    width: 97px;
+margin-left: 40px;
+}
+.left div{
+    text-align: center;
+}
+.mid{
+      display: block;
+    width: 36%;
+    margin: 20px auto;
+}
+.right{
+    
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    /* border: 2px solid green; */
+    display: inline-block;
+}
+.navbar{
+display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    border: 3px solid white;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar li a:hover,.navbar li a:active{
+text-decoration: underline;
+color: gray;
+
+}
+.btn{
+    margin: 0px 6px;
+    color: white;
+    background-color: black;
+    padding: 0px 5px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: rgb(165, 155, 155);
+/* text-decoration: underline; */
+}
+.btn:active{
+    background-color: rgb(207, 128, 207);
+}
+.container{
+    border: 6px solid white;
+margin: 150px 64px;
+padding: 55px 34px;
+width: 36%;
+display: block;
+border-radius: 12px;
+cursor: pointer;
+}
+.formgroup input{
+    background-color: rgb(226, 243, 128);
+    text-align: center;
+display: block;
+width: 400px;
+padding: 5px;
+border: 2px solid grey;
+margin: 12px auto;
+border-radius: 20px;
+font-size: 20px;
+}
+.formgender{
+background-color: rgb(226, 243, 128);
+text-align: center;
+display: block;
+width: 400px;
+padding: 5px;
+border: 2px solid grey;
+margin: 12px auto;
+border-radius: 20px;
+color: grey;
+font-weight: bold;
+font-family: 'Roboto', sans-serif;
+font-size: 19px;
+}
+.container h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.container button{
+   
+    display: block;
+width: 38%;
+margin: auto;
+font-size: x-large;
+}
+.quote{
+ 
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(34, 34, 34);
+    /* background-opacity: 40%; */
+    opacity: 50%;
+    color: #08ff35;
+    float: right;
+width: 36%;
+display: block;
+border-radius: 12px;
+margin: 10px 10px;
+padding: 10px 10px;
+}
+.quote p{
+    text-align: center;
+font-size: 32px;
+font-weight: bold;
+}
+.aboutus p{
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+.payment button{
+    position: absolute;
+    top: 345px;
+    left: 1010px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    background-color: darkblue;
+}
